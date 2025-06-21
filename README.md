@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>Etihad Market</title>
+<style>
+body {
+  background-color: black;
+}
+h1 {
+  color: red;
+  text-align: center;
+}
+p {
+  color: green;
+  font-size: 20pt;
+  animation: pulse 2s ease-in-out infinite;
+  text-align: center;
+font-weight:bold;
+
+}
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+h2 {
+  color: red;
+  text-align: center;
+}
+.dish-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.price-text {
+  color: white;
+  text-align: center;
+  font-size: 10pt;
+  margin-top: 10px;
+  animation: none !important;
+}
+.lunch-special {
+   display: grid;
+  grid-template-rows: repeat(3, auto);  /* 3 rows */
+  grid-auto-flow: column;                /* fill rows first, then create columns */
+  gap: 40px;
+  justify-content: start;                /* align grid left */
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.rounded-hr {
+      border: none;
+      height: 7px;
+      background: turquoise;
+      border-radius: 5px;
+      margin: 10px auto;
+      width: 100%;
+    }
+/* Menu with <a> tags */
+.menu {
+  text-align: center;
+  margin: 30px auto;
+  font-weight: bold;
+}
+.menu a {
+  color: white;
+  cursor: pointer;
+  padding: 8px 20px;
+  margin: 0 10px;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+.menu a:hover {
+  background-color: turquoise;
+  color: black;
+}
+</style>
+</head>
+<body>
+<h1>Etihad Market and Restaurant</h1>
+<p>FRIDAY SPECIAL: KIDS EAT FREE WHEN DINING WITH FAMILY</p>
+<h2>Lunch Special</h2>
+ <hr class="rounded-hr">
+
+<div class="lunch-special">
+  <div>
+    <img src="qabli.jpg" alt="Qabli Pulao" class="dish-img">
+    <p class="price-text">Qabli Pulao - $16.99</p>
+  </div>
+  <div>
+    <img src="biryani.jpg" alt="Chicken Biryani" class="dish-img">
+    <p class="price-text">Chicken Biryani - $14.99</p>
+  </div>
+  <div>
+    <img src="lamb.jpg" alt="Lamb Curry" class="dish-img">
+    <p class="price-text">Lamb Curry - $22.99</p>
+  </div>
+  <div>
+    <img src="chicken.jpg" alt="Lamb Curry" class="dish-img">
+    <p class="price-text">Chicken Curry - $17.99</p>
+  </div>
+  <div>
+    <img src="rosh.jpg" alt="Lamb Curry" class="dish-img">
+    <p class="price-text">Rosh - $22.99</p>
+  </div>
+<div>
+    <img src="mantu.jpg" alt="Lamb Curry" class="dish-img">
+    <p class="price-text">Mantu - $22.99</p>
+  </div>
+<div>
+    <img src="qorma.jpg" alt="Lamb Curry" class="dish-img">
+    <p class="price-text">Qorma-e-Sabzi - $22.99</p>
+  </div>
+<div>
+    <img src="sajji.jpg" alt="Lamb Curry" class="dish-img">
+    <p class="price-text">Chicken Sajji - $22.99</p>
+  </div>
+<div>
+    <img src="ckabob.jpg" alt="Lamb Curry" class="dish-img">
+    <p class="price-text">Chicken Kabob - $14.99</p>
+  </div>
+<div>
+    <img src="lkabob.jpg" alt="Lamb Curry" class="dish-img">
+    <p class="price-text">Lamb Kabob - $15.99</p>
+  </div>
+<div>
+    <img src="chapli.jpg" alt="Lamb Curry" class="dish-img">
+    <p class="price-text">Chapli Kabob - $14.99</p>
+  </div>
+<div>
+    <img src="bolani.jpg" alt="Lamb Curry" class="dish-img">
+    <p class="price-text">Bolani - $16.99</p>
+  </div>
+<div class="menu">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Food Court</a>
+  <a href="#">Shoppers Resources</a>
+  <a href="#">Career</a>
+</div>
+<div id="about
+
+</body>
+</html>
